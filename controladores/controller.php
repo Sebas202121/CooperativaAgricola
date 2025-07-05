@@ -5,7 +5,6 @@ require_once "modelos/usuario.php";
 require_once "modelos/pedido.php";
 require_once "modelos/producto.php";
 require_once "modelos/distribucion.php";
-require_once "modelos/inventario.php";
 require_once "modelos/detallesPed.php";
 
 class UsuarioController{
