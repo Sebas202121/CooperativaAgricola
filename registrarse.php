@@ -3,10 +3,11 @@
 ?>
 <h1>Registrar Usuario</h1>
 <form method="post" action="<?php echo $_SERVER["PHP_SELF"]?>">
-    <input type="text" name="username" placeholder="Usuario"><br>
-    <input type="password" name="password" placeholder="Contraseña"><br>
-    <input type="text" name="email" placeholder="Email"><br>
-    <input type="submit" value="Guardar"><br>
+    <input type="text" class="form-control" name="username" placeholder="Usuario"><br>
+    <input type="password" class="form-control" name="password" placeholder="Contraseña"><br>
+    <input type="text" class="form-control" name="email" placeholder="Email"><br>
+    <a href="login.php" class="btn btn-secondary">Atras</a>
+    <input type="submit" class="btn btn-primary" value="Guardar"><br>
 </form>
 <?php
     require_once "controladores/Controller.php";
